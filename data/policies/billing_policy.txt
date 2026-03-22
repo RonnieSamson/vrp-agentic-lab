@@ -1,0 +1,5 @@
+Billing Policy
+
+Billing issues should include an order number or invoice reference when possible.
+Billing cases should be routed to billing support for review.
+Course-related payment disputes may need manual review.
