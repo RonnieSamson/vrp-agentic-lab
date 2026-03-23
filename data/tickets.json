@@ -1,0 +1,95 @@
+[
+	{
+		"id": "T001",
+		"customer_name": "Emma Lindberg",
+		"issue_type": "return_request",
+		"message": "I want to return a dive computer I bought last week because the screen is too small for me underwater.",
+		"order_number": "DS-10452",
+		"purchase_date": "2026-03-10"
+	},
+	{
+		"id": "T002",
+		"customer_name": "Johan Berg",
+		"issue_type": "billing_issue",
+		"message": "I was charged twice for my wetsuit order and need help checking the invoice.",
+		"order_number": "DS-10458",
+		"purchase_date": "2026-03-14"
+	},
+	{
+		"id": "T003",
+		"customer_name": "Sara Nyholm",
+		"issue_type": "shipping_issue",
+		"message": "My regulator spare parts still have not arrived even though the tracking page says delivered.",
+		"order_number": "DS-10391",
+		"purchase_date": "2026-03-02"
+	},
+	{
+		"id": "T004",
+		"customer_name": "Maja Eriksson",
+		"issue_type": "course_booking",
+		"message": "Can I move my open water course booking from next weekend to the following weekend?",
+		"order_number": "CRS-22014",
+		"purchase_date": "2026-03-01"
+	},
+	{
+		"id": "T005",
+		"customer_name": "Lukas Andersson",
+		"issue_type": "service_request",
+		"message": "I need annual service for my BCD inflator and second stage regulator before a trip next month.",
+		"purchase_date": "2024-06-18"
+	},
+	{
+		"id": "T006",
+		"customer_name": "Daniel Holm",
+		"issue_type": "trip_booking",
+		"message": "I want to know if there are still two spots available on the wreck dive excursion on April 20.",
+		"order_number": "TRIP-8821",
+		"purchase_date": "2026-03-12"
+	},
+	{
+		"id": "T007",
+		"customer_name": "Olivia Persson",
+		"issue_type": "return_request",
+		"message": "I bought fins on January 5 and would like to return them now because they are uncomfortable after a few dives.",
+		"order_number": "DS-09870",
+		"purchase_date": "2026-01-05"
+	},
+	{
+		"id": "T008",
+		"customer_name": "Viktor Sand",
+		"issue_type": "billing_issue",
+		"message": "The total for my mask and snorkel set looks wrong, but I cannot find the order number in my email.",
+		"purchase_date": "2026-03-08"
+	},
+	{
+		"id": "T009",
+		"customer_name": "Hanna Eklund",
+		"issue_type": "shipping_issue",
+		"message": "The parcel with my drysuit arrived with damage to the outer packaging and I need to report it.",
+		"order_number": "DS-10401",
+		"purchase_date": "2026-03-04"
+	},
+	{
+		"id": "T010",
+		"customer_name": "Sofia Mattsson",
+		"issue_type": "return_request",
+		"message": "I want to return a wetsuit, but I no longer have the order number available in my account.",
+		"purchase_date": "2026-03-13"
+	},
+	{
+		"id": "T012",
+		"customer_name": "Nils Franzen",
+		"issue_type": "trip_booking",
+		"message": "I need to cancel my guided night dive booking because of a medical issue and want to know my options.",
+		"order_number": "TRIP-8845",
+		"purchase_date": "2026-03-11"
+	},
+	{
+		"id": "T013",
+		"customer_name": "Karin Dahl",
+		"issue_type": "return_request",
+		"message": "I want to return a used neoprene hood that I tested once in the pool because it feels too tight.",
+		"order_number": "DS-10477",
+		"purchase_date": "2026-03-09"
+	}
+]
