@@ -265,6 +265,7 @@ def run_agent(ticket: Ticket, max_steps: int = 5) -> dict:
 					break
 				continue
 
+
 			if decision.tool_name == "check_required_fields":
 				observation = check_required_fields(asdict(ticket))
 				trajectory.append(
@@ -278,6 +279,18 @@ def run_agent(ticket: Ticket, max_steps: int = 5) -> dict:
 						},
 					}
 				)
+				# NY LOGIK: Stoppa om info saknas
+				if observation.startswith("MISSING:"):
+					missing_fields = observation.replace("MISSING:", "").strip()
+					final_answer = f"Ärendet kan inte triageras: följande information saknas: {missing_fields}"
+					trajectory.append(
+						{
+							"step": step,
+							"type": "final",
+							"content": final_answer,
+						}
+					)
+					break
 				if has_enough_information(ticket, trajectory):
 					final_answer = build_final_answer(ticket, trajectory)
 					trajectory.append(
