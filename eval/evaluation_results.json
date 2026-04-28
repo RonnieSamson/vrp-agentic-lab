@@ -1,0 +1,262 @@
+{
+  "baseline_summary": {
+    "total_tickets": 12,
+    "passed_validation": 7,
+    "failed_validation": 5,
+    "success_rate": 0.58,
+    "average_tool_calls": 0.0,
+    "average_steps": 1.0
+  },
+  "agent_summary": {
+    "total_tickets": 12,
+    "passed_validation": 7,
+    "failed_validation": 5,
+    "success_rate": 0.58,
+    "average_tool_calls": 1.5,
+    "average_steps": 4.0
+  },
+  "baseline_results": [
+    {
+      "ticket_id": "T001",
+      "issue_type": "return_request",
+      "final_answer": "Route this ticket to returns support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [
+        "Return request is outside the 30-day window."
+      ],
+      "passed_validation": false
+    },
+    {
+      "ticket_id": "T002",
+      "issue_type": "billing_issue",
+      "final_answer": "Route this ticket to billing support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T003",
+      "issue_type": "shipping_issue",
+      "final_answer": "Route this ticket to logistics and shipping support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T004",
+      "issue_type": "course_booking",
+      "final_answer": "Route this ticket to course administration support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T005",
+      "issue_type": "service_request",
+      "final_answer": "Route this ticket to equipment service support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T006",
+      "issue_type": "trip_booking",
+      "final_answer": "Route this ticket to trip booking support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T007",
+      "issue_type": "return_request",
+      "final_answer": "Route this ticket to returns support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [
+        "Return request is outside the 30-day window."
+      ],
+      "passed_validation": false
+    },
+    {
+      "ticket_id": "T008",
+      "issue_type": "billing_issue",
+      "final_answer": "Baseline could not triage the ticket because the following information is missing: order_number",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [
+        "Order number is required for billing issues."
+      ],
+      "passed_validation": false
+    },
+    {
+      "ticket_id": "T009",
+      "issue_type": "shipping_issue",
+      "final_answer": "Route this ticket to logistics and shipping support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T010",
+      "issue_type": "return_request",
+      "final_answer": "Baseline could not triage the ticket because the following information is missing: order_number",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [
+        "Return request is outside the 30-day window.",
+        "Order number is required for return requests."
+      ],
+      "passed_validation": false
+    },
+    {
+      "ticket_id": "T012",
+      "issue_type": "trip_booking",
+      "final_answer": "Route this ticket to trip booking support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T013",
+      "issue_type": "return_request",
+      "final_answer": "Route this ticket to returns support.",
+      "steps": 1,
+      "tool_calls": 0,
+      "validation_errors": [
+        "Return request is outside the 30-day window.",
+        "Return of used personal equipment requires manual review."
+      ],
+      "passed_validation": false
+    }
+  ],
+  "agent_results": [
+    {
+      "ticket_id": "T001",
+      "issue_type": "return_request",
+      "final_answer": "Route this ticket to returns support. Required fields were checked. The returns policy was reviewed.",
+      "steps": 5,
+      "tool_calls": 2,
+      "validation_errors": [
+        "Return request is outside the 30-day window."
+      ],
+      "passed_validation": false
+    },
+    {
+      "ticket_id": "T002",
+      "issue_type": "billing_issue",
+      "final_answer": "Route this ticket to billing support. Required fields were checked. The billing policy was reviewed.",
+      "steps": 5,
+      "tool_calls": 2,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T003",
+      "issue_type": "shipping_issue",
+      "final_answer": "Route this ticket to logistics and shipping support. Required fields were checked. The shipping policy was reviewed.",
+      "steps": 5,
+      "tool_calls": 2,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T004",
+      "issue_type": "course_booking",
+      "final_answer": "Route this ticket to course administration support. Required fields were checked.",
+      "steps": 3,
+      "tool_calls": 1,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T005",
+      "issue_type": "service_request",
+      "final_answer": "Route this ticket to equipment service support. Required fields were checked.",
+      "steps": 3,
+      "tool_calls": 1,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T006",
+      "issue_type": "trip_booking",
+      "final_answer": "Route this ticket to trip booking support. Required fields were checked.",
+      "steps": 3,
+      "tool_calls": 1,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T007",
+      "issue_type": "return_request",
+      "final_answer": "Route this ticket to returns support. Required fields were checked. The returns policy was reviewed.",
+      "steps": 5,
+      "tool_calls": 2,
+      "validation_errors": [
+        "Return request is outside the 30-day window."
+      ],
+      "passed_validation": false
+    },
+    {
+      "ticket_id": "T008",
+      "issue_type": "billing_issue",
+      "final_answer": "Ärendet kan inte triageras: följande information saknas: order_number",
+      "steps": 3,
+      "tool_calls": 1,
+      "validation_errors": [
+        "Order number is required for billing issues."
+      ],
+      "passed_validation": false
+    },
+    {
+      "ticket_id": "T009",
+      "issue_type": "shipping_issue",
+      "final_answer": "Route this ticket to logistics and shipping support. Required fields were checked. The shipping policy was reviewed.",
+      "steps": 5,
+      "tool_calls": 2,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T010",
+      "issue_type": "return_request",
+      "final_answer": "Ärendet kan inte triageras: följande information saknas: order_number",
+      "steps": 3,
+      "tool_calls": 1,
+      "validation_errors": [
+        "Return request is outside the 30-day window.",
+        "Order number is required for return requests."
+      ],
+      "passed_validation": false
+    },
+    {
+      "ticket_id": "T012",
+      "issue_type": "trip_booking",
+      "final_answer": "Route this ticket to trip booking support. Required fields were checked.",
+      "steps": 3,
+      "tool_calls": 1,
+      "validation_errors": [],
+      "passed_validation": true
+    },
+    {
+      "ticket_id": "T013",
+      "issue_type": "return_request",
+      "final_answer": "Route this ticket to returns support. Required fields were checked. The returns policy was reviewed.",
+      "steps": 5,
+      "tool_calls": 2,
+      "validation_errors": [
+        "Return request is outside the 30-day window.",
+        "Return of used personal equipment requires manual review."
+      ],
+      "passed_validation": false
+    }
+  ]
+}
